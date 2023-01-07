@@ -12,7 +12,7 @@ CREATE TABLE cars_cost
 
 /*                    
 - файл test_db.csv скопирован в папку по указанному ниже адресу, 
-- добавлена строчка в 'OPT_LOCAL_INFILE=1' во вкладку Server -> Management Access Settings -> Connection -> Advanced -> Other       
+- добавлена строчка 'OPT_LOCAL_INFILE=1' в поле Other, во вкладке Server -> Management Access Settings -> Connection -> Advanced -> Other       
 */
 
 LOAD DATA INFILE "C://ProgramData//MySQL//MySQL Server 8.0//Uploads//test_db.csv" INTO TABLE cars_cost 
